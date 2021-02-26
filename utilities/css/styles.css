@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+/* 
+font-family: 'Akaya Telivigala' sans-serif;
+*/
+
+body{
+    font-family: 'Akaya Telivigala','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    box-sizing: border-box;
+    width:auto;
+    margin:0;
+}
+
+.tripspot-header{
+    background-image: url(../../images/banner5.jpg );    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 600px;
+    color: #fff;
+    font-family: 'Akaya Telivigala','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa {}
+
+.tripspot-header .overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+.tripspot-header .overlay .container header .logo{
+    color:#fff;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.tripspot-header .overlay .container header .logo .fab{color:rgb(204, 144, 15);
+
+}
+
+.tripspot-header .overlay .container header .header-link{
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.tripspot-header .container .header-card{
+    z-index:999;
+    
+}
+.tripspot-header .overlay .container header .logo{
+    font-size: 20px;
+}
+.tripspot-header .overlay .container header .header-link2{
+    color:cornsilk;
+    text-decoration: none;
+    position: relative;
+    left:1200px;
+    
+    
+}
+.tripspot-header .container  .form-overlay{
+    width:200px;
+    height:200px;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.tripspot-header  .form-overlay {
+    width:200px;
+    height:200px;
+}
+
+.tripspot-header .container .form-overlay form .form-row{
+    padding: 10px;
+}
+.tripspot-header .fas-header h2 {
+    padding-left:30px;
+}
+
+.tripspot-header .fas-header .fas{
+    font-size:25px;
+}
+
+.tripspot-header  .fas-header .num{
+    color:rgb(204, 144, 15);
+    font-size:40px;
+}
+/* .tripspot-header .container .form-overlay form .input-header{
+    ;
+    padding-left:13px;
+} */
+
+/* .container header nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 188, 20);
+    font-size: 18px;
+    display: block;
+    width: auto;
+    padding: 7px 13px;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+    margin: 0 1px;} */
+
+.tripspot-header .container .header-card{
+    opacity: 0.4;
+}
+
+.header-part{
+    background-color: rgb(204, 144, 15);
+    height:430px;
+    padding:50px;
+}
+
+.header-part .btn-default{
+    width:200px;
+    height:50px;
+    background-color: rgb(5, 5, 61);
+    color: cornsilk;
+}
+
+.header-part .winter{
+    padding:20px;
+    width:100%
+}
+
+.header-part .img-fluid{
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5);
+    height:320px;
+}
+
+/* Our Service CSS */
+
+/* .our-services-img1 { */
+/* 
+    background-image: url(../images/s1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height:200px;
+    width:200px;
+} */
+
+/* .our-services-img .pair-top{
+    /* background-image: url(../images/s2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height:250px;
+    width:400px;
+    padding:5px; */
+
+
+/* .our-services-img .pair1{
+    /* background-image: url(../images/s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height:450px;
+    width:300px */
+
+
+/* .our-services-img .pair1{ */
+    /* background-image: url(../images/s4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height:450px;
+    width:100%; */
+    
+
+
+/* Stats Page CSS */
+
+.stats {
+
+    width:100%;
+    background-image: url(../../images/stats1.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    
+}
+
+.stats .num{
+    color:rgb(204, 144, 15);
+    font-size:40px;
+}
+
+.stats-two{
+    background-color: darkgray;
+}
+
+.stats-two .guidance{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stats-two .guidance .card-body{
+    background-color: rgb(5, 5, 61); 
+    color:cornsilk;
+    text-align: center;
+}
+
+
+
+/* Tour Gallery CSS */
+
+.tour-gallery .tour-img .card
+{
+    padding:5px;
+    text-align: center;
+}
+
+.tour-gallery .card .card-body{
+    background-color: rgb(204, 144, 15);
+    color:cornsilk;
+    text-align: center;
+}
+
+/* Tour Price */
+
+.tour-price .tour-price1{
+    background-image: url(../images/)
+}
