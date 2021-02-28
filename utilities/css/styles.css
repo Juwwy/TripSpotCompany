@@ -17,7 +17,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width:100%;
-    min-height: 600px;
+    min-height: 780px;
     color: #fff;
     font-family: 'Akaya Telivigala','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -30,13 +30,27 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 600px;
+    min-height: 780px;
 }
 
 .tripspot-header .overlay .container header .logo{
     color:#fff;
     text-decoration: none;
-    font-size:20px;
+    font-size:40px !important;
+}
+
+.tripspot-header .overlay .container header .header-tel a{
+    text-decoration: none;
+    color: cornsilk;
+    float: right;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.tripspot-header .overlay .container header .header-tel a:hover{
+    transform: scale(1.2);
 }
 
 .tripspot-header .overlay .container header .logo .fab{color:rgb(204, 144, 15);
@@ -46,7 +60,26 @@ body{
 .tripspot-header .overlay .container header .header-link{
     color:cornsilk;
     text-decoration: none;
+    opacity: 0.7;
 }
+.tripspot-header .overlay .container header .header-link1{
+    color:cornsilk;
+    text-decoration: none;
+    
+}
+
+.tripspot-header .overlay .container header .header-link:hover{
+    
+    transform: scale(1.2);
+    color:#fff;
+    opacity: 1;
+}
+
+.tripspot-header .overlay .container header .header-link1:hover{
+    color:#fff;
+    transform: scale(1.2)
+}
+
 
 .tripspot-header .container .header-card{
     z-index:999;
@@ -190,7 +223,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height:500px;
+    height:550px;
     padding-top: 10px;
     
 
@@ -318,9 +351,7 @@ body{
     color: cornsilk;
     float: right;
 }
-.client-review .test-q h5{
- text-align: 
-}
+
 
 .client-review .test-q .img-fluid{
     width: 50px;
@@ -356,6 +387,10 @@ body{
 
 .contact-us a{
     color: rgb(26, 25, 25);
+}
+
+.contact-us .contact-pm a{
+    text-decoration: none;
 }
 
 
