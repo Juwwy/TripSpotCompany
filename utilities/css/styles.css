@@ -7,7 +7,7 @@ font-family: 'Akaya Telivigala' sans-serif;
 body{
     font-family: 'Akaya Telivigala','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     box-sizing: border-box;
-    width:auto;
+    width:100%;
     margin:0;
 }
 
@@ -22,7 +22,7 @@ body{
     font-family: 'Akaya Telivigala','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.fa {}
+
 
 .tripspot-header .overlay{
     background-color: rgba(0,0,0,0.5);
@@ -136,6 +136,11 @@ body{
 
 /* Our Service CSS */
 
+.main .num{
+    color:rgb(204, 144, 15);
+    font-size:40px;
+}
+
 /* .our-services-img1 { */
 /* 
     background-image: url(../images/s1.jpg);
@@ -178,16 +183,33 @@ body{
 
 /* Stats Page CSS */
 
-.stats {
+#stats {
 
     width:100%;
-    background-image: url(../../images/stats1.jpg) !important;
+    background-image: url(../images/stats1.jpg) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height:500px;
+    padding-top: 10px;
     
 
     
+}
+
+.stats-container .stats-num .num{
+    color:cornsilk;
+    font-size:25px;
+    border-radius: 100% ;
+    background-color: rgb(204, 144, 15);
+    width:35px;
+    height: 35px;
+    padding:2px;
+}
+
+.stats-container .icon-num{
+    padding: 2px;
+    text-align: center;
 }
 
 .stats .num{
@@ -199,14 +221,12 @@ body{
     background-color: darkgray;
 }
 
-.stats-two .guidance{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .stats-two .guidance .card-body{
     background-color: rgb(5, 5, 61); 
     color:cornsilk;
     text-align: center;
+    padding: 2px;
 }
 
 
@@ -228,5 +248,137 @@ body{
 /* Tour Price */
 
 .tour-price .tour-price1{
-    background-image: url(../images/)
+    background-image: url(../images/p1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+
+}
+
+.tour-price .tour-price2{
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+
+}
+
+.tour-price .tour-price3{
+    background-image: url(../images/p3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+
+}
+
+.tour-price .tour-price4{
+    background-image: url(../images/p4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+
+}  
+
+.tour-price h3,  .tour-price .num{
+    background-color: rgb(204, 144, 15);
+    color: cornsilk;
+    
+}
+
+
+
+.tour-price .num{
+    font-size: 10px;
+}
+
+/* Client Review Page */
+
+.client-review{
+    height:620px;
+    padding-top: 20px;
+}
+
+.client-review .quote{
+    background-color:  rgb(5, 5, 61); 
+    color: cornsilk;
+    border-radius: 4px;
+    padding:20px;
+    
+}
+
+.client-review .test-q{
+    color: cornsilk;
+    float: right;
+}
+.client-review .test-q h5{
+ text-align: 
+}
+
+.client-review .test-q .img-fluid{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+
+/* Contact Page CSS */
+
+.contact-us .card-body form .space input
+{
+    margin-bottom: 14px;
+    background-color: rgb(219, 219, 218);
+    
+}
+.contact-us .card{
+    box-shadow: rgba(0,0,0,0.5) 5px 2px 5px 2px ;
+}
+
+.contact-us .card-body form .space textarea{
+    background-color: rgb(219, 219, 218);
+}
+
+.contact-us .social-img .img-fluid{
+    height: 365px;
+}
+
+.contact-us .contact-fas .num{
+    color:rgb(204, 144, 15);
+    font-size:25px;
+}
+
+.contact-us a{
+    color: rgb(26, 25, 25);
+}
+
+
+/* Footer */
+
+.google-map .map .img-fluid{
+    width:100%;
+    height: 400px;
+}
+
+.footer{
+    background-color: rgb(5, 5, 61); 
+    color:cornsilk;
+    width:100%;
+    padding:20px;
+    text-align: center;
+}
+.footer .home-pointer a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.footer .footer-num .num{
+    color:rgb(204, 144, 15);
+    font-size:40px;
 }
